@@ -1,0 +1,11 @@
+@import "variables.scss";
+
+.tituloSecundario h1{
+    @if $color==negro{
+        color: $color-texto
+    }@else if $color==petroleo{
+        color: $color-titulo
+    }@else{
+        color: $color-fondo
+    }
+}

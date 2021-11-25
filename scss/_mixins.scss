@@ -1,0 +1,11 @@
+@import"variables.scss";
+
+
+// EN EL FOOTER
+
+@mixin fuente ($titulo-font){
+    font-family: $titulo-font;
+}
+.caja__footer h2{
+    @include fuente ($titulo-font)
+}
