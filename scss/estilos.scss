@@ -19,14 +19,12 @@
     justify-content: center;
     align-items: center;
 }
-.formulario__titulo{
-    font-family: 'Lobster', cursive  ;
+.tituloForm{
     text-align: center;
     margin: 10px 0px;
-    color: #38A3A5;
 }
 
-.formulario{
+.formContacto{
     background-color: #E2FDFF;
     width: 30%;
     padding: 10px 0px;
@@ -34,23 +32,12 @@
     box-shadow: 0 0 6px 0 #7e8987;
     z-index: -1;
 }
-.formulario{
+.formContacto{
    margin: auto;
 }
 .formulario__grupo{
     position: relative;
     margin: 45px;
-}
-.fondoContacto{
-    background-color: #C9E265;
-}
-
-
-/* fomulario pedido */
-.formulario__grupo{  
-    position: relative;
-    margin: 45px;
-    
 }
 
 input, textarea{
@@ -64,7 +51,7 @@ input, textarea{
     border-bottom: 1px solid #38A3A5;
     resize: none;
 }
- input:focus, textarea:focus{
+input:focus, textarea:focus{
     outline: none;
 }
 
@@ -75,13 +62,10 @@ textarea:focus~label, textarea:valid~label{
     top: -14px;
     font-size: 12px;
     color: #38A3A5;
-    
 }
-
 label{
     font-family: 'Baloo 2', cursive ;
 }
-
 button{
     display: block;
     width: 100px;
@@ -94,45 +78,41 @@ button{
     margin: 10px auto;
 }
 button:hover{
-    color: #EAE2B7;
+    color: grey;
+}
+.fondoContacto{
+    background-color: #E2FDFF;
 }
 
 
-.tituloForm{
-    font-family: 'Lobster', cursive  ;
-    text-align: center;
-    margin: 10px 0px;
-    color: #38A3A5;
-}
 
+/* fomulario pedido */
 
 .formulario2{
     width: 100%;
-    height: 620px; 
+    height: 620px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
 }
 .formPedido{
     background-color: #E2FDFF;
-    width: 50%;
-    padding: 20px 0px;
+    width: 30%;
+    padding: 10px 0px;
     border-radius: 10px;
     box-shadow: 0 0 6px 0 #7e8987;
-    z-index: -1;
 }
 .formPedido{
     margin: auto;
 }
 .fondoPedido{
-    background-color:#C9E265;
+    background-color:#E2FDFF;
 }
 .opciones{
     display:block;
     border: none;
-    color: #7e8987;
-    background-color: #d7d6d5;
+    color: white;
+    background-color: #7e8987;
     border-radius: 3px;
     margin: 5px auto;
 }
