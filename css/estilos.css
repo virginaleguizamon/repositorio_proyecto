@@ -28,7 +28,8 @@
 
 .formulario__titulo {
   text-align: center;
-  margin: 10px 0px; }
+  margin: 10px 0px;
+  font-family: "Yeseva One", cursive; }
 
 .formulario {
   background-color: #E2FDFF;
@@ -61,7 +62,8 @@ input:focus, textarea:focus {
 
 input:focus ~ label,
 input:valid ~ label,
-textarea:focus ~ label, textarea:valid ~ label {
+textarea:focus ~ label,
+textarea:valid ~ label {
   position: absolute;
   top: -14px;
   font-size: 12px;
@@ -104,6 +106,11 @@ button:hover {
 
 .formPedido {
   margin: auto; }
+
+.tituloForm {
+  text-align: center;
+  margin: 10px 0px;
+  font-family: "Yeseva One", cursive; }
 
 .fondoPedido {
   background-color: #C9E265; }
