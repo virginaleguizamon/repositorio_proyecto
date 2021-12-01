@@ -19,12 +19,12 @@
     justify-content: center;
     align-items: center;
 }
-.tituloForm{
+.formulario__titulo{
     text-align: center;
     margin: 10px 0px;
 }
 
-.formContacto{
+.formulario{
     background-color: #E2FDFF;
     width: 30%;
     padding: 10px 0px;
@@ -32,7 +32,7 @@
     box-shadow: 0 0 6px 0 #7e8987;
     z-index: -1;
 }
-.formContacto{
+.formulario{
    margin: auto;
 }
 .formulario__grupo{
@@ -81,7 +81,7 @@ button:hover{
     color: grey;
 }
 .fondoContacto{
-    background-color: #E2FDFF;
+    background-color: $color-fondo;
 }
 
 
@@ -106,7 +106,7 @@ button:hover{
     margin: auto;
 }
 .fondoPedido{
-    background-color:#E2FDFF;
+    background-color: $color-fondo;
 }
 .opciones{
     display:block;
@@ -125,7 +125,49 @@ button:hover{
 }
 
 
+// MEDIA QUERIES FORMULARIO PEDIDO
+@media screen and (max-width:1100px){
+    .formPedido{
+        width: 50%;
+    }
+}
+@media screen and (max-width:600px){
+    .formPedido{
+        width: 60%;
+    }
+}
+@media screen and (max-width:450px){
+    .formPedido{
+        width: 80%;
+    }
+}
+@media screen and (max-width:300px){
+    .formPedido{
+        width: 90%;
+    }
+}
 
+// MEDIA QUERIES FORMULARIO CONTACTO
+@media screen and (max-width:1100px){
+    .formulario{
+        width: 50%;
+    }
+}
+@media screen and (max-width:600px){
+    .formulario{
+        width: 60%;
+    }
+}
+@media screen and (max-width:450px){
+    .formulario{
+        width: 80%;
+    }
+}
+@media screen and (max-width:300px){
+    .formulario{
+        width: 90%;
+    }
+}
 /* CATÁLOGO */
 .fondoCatalogo{
     background-color:$color-fondo;
