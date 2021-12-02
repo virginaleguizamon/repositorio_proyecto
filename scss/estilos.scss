@@ -426,26 +426,26 @@ footer{
 .contenedorReiki{
     display: grid;
     grid-template-areas: 
-    "reiki1 reiki2 reiki3";
-    grid-template-columns: 5fr 5fr 5fr;
-    grid-template-rows: 100%;
+    "reiki1"
+    "reiki2"
+    "reiki3";
 }
+
 .reiki1{
     grid-area: reiki1;
-    margin: 8px;
-    text-align: justify;
-    
+    margin:15px;
+    text-align: center;
 }
+
 .reiki2{
     grid-area: reiki2;
-    margin: 15px;
-    text-align: justify;
-   
+    display: flex;
+    justify-content: center;
 }
 .reiki3{
     grid-area: reiki3;
-    margin: 8px;
-    text-align: justify;
+    display: flex;
+    justify-content: center;
 }
 .main2{
     display: flex;
