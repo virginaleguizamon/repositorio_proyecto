@@ -22,10 +22,11 @@
 .tituloForm{
     text-align: center;
     margin: 10px 0px;
+    font-family: $titulo-font;
 }
 
 .formContacto{
-    background-color: #E2FDFF;
+    background-color:#EAE2B7;
     width: 30%;
     padding: 10px 0px;
     border-radius: 10px;
@@ -80,7 +81,7 @@ button:hover{
     color: grey;
 }
 .fondoContacto{
-    background-color: #E2FDFF;
+    background-color: $color-fondo;
 }
 
 
@@ -107,6 +108,10 @@ button:hover{
     text-align: center;
     margin: 10px 0px;
     font-family: $titulo-font;
+}
+.formulario__grupo{
+    position: relative;
+    margin: 45px;
 }
 .fondoPedido{
     background-color: $color-fondo;
@@ -153,22 +158,22 @@ button:hover{
 
 // MEDIA QUERIES FORMULARIO CONTACTO
 @media screen and (max-width:1100px){
-    .formulario{
+    .formContacto{
         width: 50%;
     }
 }
 @media screen and (max-width:600px){
-    .formulario{
+    .formContacto{
         width: 60%;
     }
 }
 @media screen and (max-width:450px){
-    .formulario{
+    .formContacto{
         width: 80%;
     }
 }
 @media screen and (max-width:300px){
-    .formulario{
+    .formContacto{
         width: 90%;
     }
 }
