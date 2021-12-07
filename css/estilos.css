@@ -328,7 +328,8 @@ footer {
 .nosotros {
   display: grid;
   grid-template-areas: 'sectioNosotros sectioNosotros' 'soy soy';
-  grid-template-columns: 10fr 10fr; }
+  grid-template-columns: 10fr 10fr;
+  padding-bottom: 25%; }
 
 .sectioNosotros {
   grid-area: sectioNosotros; }
