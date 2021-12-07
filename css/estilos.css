@@ -27,8 +27,7 @@
   width: 30%;
   padding: 10px 0px;
   border-radius: 10px;
-  box-shadow: 0 0 6px 0 #7e8987;
-  z-index: -1; }
+  box-shadow: 0 0 6px 0 #7e8987; }
 
 .formContacto {
   margin: auto; }
@@ -91,8 +90,7 @@ button:hover {
   width: 30%;
   padding: 10px 0px;
   border-radius: 10px;
-  box-shadow: 0 0 6px 0 #7e8987;
-  z-index: -1; }
+  box-shadow: 0 0 6px 0 #7e8987; }
 
 .formPedido {
   margin: auto; }
@@ -181,7 +179,8 @@ button:hover {
 /* menu principal*/
 .navegacion {
   position: sticky;
-  top: 0px; }
+  top: 0px;
+  z-index: 1; }
 
 .menuPrincipal li a {
   font-family: 'Baloo 2', cursive;
