@@ -14,7 +14,7 @@
 
 // con switch
 
-let turnos = prompt ("Turnos disponibles en el mes de febrero, elija una fecha.")
+/*let turnos = prompt ("Turnos disponibles en el mes de febrero, elija una fecha.")
 
 while(turnos != "ESC"){
    
@@ -39,4 +39,4 @@ while(turnos != "ESC"){
             break;
     }
     turnos = prompt ("Turnos disponibles del 1 al 5 de febrero, elija una fecha.")
-}
+}*/
